@@ -6,17 +6,17 @@ int main(){
     
     Arreglo<string> arreglo;
 
-    arreglo.insertar_inicio("b");
-    arreglo.insertar_inicio("a");
-    arreglo.insertar_final("y");
-    arreglo.insertar_final("z");
+    arreglo.insertar_inicio("q");
+    arreglo.insertar_inicio("w");
+    arreglo.insertar_final("e");
+    arreglo.insertar_final("r");
 
     for (size_t i = 0; i < arreglo.size(); i++){
         cout<<arreglo[i]<<" ";
     }
     cout<<endl<<endl;
 
-    arreglo.insertar("c",2);
+    arreglo.insertar("t",2);
 
     for (size_t i = 0; i < arreglo.size(); i++){
         cout<<arreglo[i]<<" ";
